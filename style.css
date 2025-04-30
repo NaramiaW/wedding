@@ -10,6 +10,7 @@ body {
   min-height: 4000px;
 }
 
+
 .hero::before {
   content: '';
   position: absolute;
@@ -117,7 +118,7 @@ body {
 
 .home .couple h3 {
   font-family: 'Sacramento';
-  font-size: 2.2rem;
+  font-size: 43px;
   color: var(--pink);
 }
 
@@ -159,7 +160,7 @@ body {
 }
 
 .info .card {
-  background-color: rgba(255, 255, 255, 0.2) !important;
+  background-color: #c9f4ff !important;
   color: white !important;
   border: 1px solid #999;
 }
