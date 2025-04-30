@@ -387,6 +387,15 @@ footer li {
   .simply-countdown > .simply-section {
     padding: 70px;
   }
+  .info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info .iframe{
+    width: 50%; 
+    height: 50%;
+  }
 
   .home .heart {
     display: none;
@@ -478,7 +487,7 @@ footer li {
     width: 25%; 
     height: 25%;
   }
-  
+
   .timeline li .timeline-image {
     width: 80px;
     height: 80px;
