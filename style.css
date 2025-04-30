@@ -90,7 +90,6 @@ body {
 }
 
 .home h2,
-.info h2,
 .story h2,
 .gallery h2,
 .rsvp h2,
@@ -143,25 +142,9 @@ body {
   color: var(--pink);
 }
 
-.info {
-  background-color: var(--bg);
-  color: white;
-  padding-top: 10rem;
-  padding-bottom: 8rem;
-}
-
-.info .alamat {
-  font-size: 1.1rem;
-}
-
-.info .description {
-  font-size: 1rem;
-  font-weight: 300;
-}
-
 .info .card {
   background-color: #c9f4ff !important;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   border: 1px solid #999;
 }
 
@@ -445,6 +428,16 @@ footer li {
     font-size: 65%;
   }
 
+  .info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info .iframe{
+    width: 25%; 
+    height: 25%;
+  }
+
   .simply-countdown > .simply-section {
     padding: 60px;
     margin: 5px;
@@ -476,6 +469,16 @@ footer li {
     margin: 3px;
   }
 
+  .info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info .iframe{
+    width: 25%; 
+    height: 25%;
+  }
+  
   .timeline li .timeline-image {
     width: 80px;
     height: 80px;
