@@ -38,7 +38,6 @@
         </h1><br>
       <h3><b>Yang akan diselenggarakan dalam:</b></h3>
       <div class="simply-countdown"></div>
-      <a href="#home" class="btn btn-lg mt-4" >Lihat Undangan</a> <!-- onClick="enableScroll()" -->
     </main>
 
   </section>
@@ -57,7 +56,7 @@
           <h2>Acara Pernikahan</h2>
           
       <div class="d-flex justify-content-center mt-4" >
-        <div class="col-md-8 col-10 m-4" >
+        <div class="col-md-6 col-10 m-4" >
           <div class="card text-center text-bg-light mb-5">
             <div class="card-header"><b>Pemberkatan</b></div>
             <div class="card-body">
@@ -91,7 +90,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8 col-10 m-4">
+        <div class="col-md-6 col-10 m-4">
           <div class="card text-center text-bg-light">
             <div class="card-header"><b>Resepsi</b></div>
             <div class="card-body">
@@ -384,18 +383,12 @@
     const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
     const audioIcon = document.querySelector('.audio-icon-wrapper i');
     const song = document.querySelector('#song');
-    let isPlaying = true;
-    window.onscroll = function () { }
+    let isPlaying = false;
+    //window.onscroll = function () { }
     rootElement.style.scrollBehavior = 'smooth';
-    playAudio();
-    
-
-    function playAudio() {
       song.volume = 0.1;
       audioIconWrapper.style.display = 'flex';
       song.play();
-      isPlaying = true;
-    }
 
     audioIconWrapper.onclick = function () {
       if (isPlaying) {
